@@ -26,7 +26,7 @@ define('DB_NAME', 'expiria.netdb');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'yehuda72');
+define('DB_PASSWORD', 'xxx');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
