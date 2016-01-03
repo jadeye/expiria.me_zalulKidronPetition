@@ -6,11 +6,7 @@ $('#checkme').click(function () {
         //enable input
         $('#sendBtn').removeAttr('disabled');
         $('#sendBtn').val('לחתימה >>');
-    } /*else {
-        //disable input
-        $('#sendBtn').attr('disabled', true);
-        $('#sendBtn').val('אנא אשרו רשימת דיוור בתיבה למטה');
-    }*/
+    }
 });
 
     // hide messages 
@@ -56,8 +52,6 @@ $('#checkme').click(function () {
         setTimeout(function() {
             $("#sent-form-msg").fadeOut();
         }, 3000);
-
-        //console.log("SUCCESS sending ajax");
      }
 
     return false;
