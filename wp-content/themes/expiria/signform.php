@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8');
-$con = mysqli_connect("127.0.0.1","expiria.netdbusr","WwurX9CujdFrLnZE","zalulpetitiondb");
+$con = mysqli_connect("127.0.0.1","xxxx","xxx","xxxx");
 $con->set_charset('utf8');
 
 if (mysqli_connect_errno()) {
@@ -24,9 +24,6 @@ if (mysqli_connect_errno()) {
 
 	  die('Error: ' . mysqli_error($con));
 	}
-//	error_log("1 '$email' registered", 1, "judmojo@gmail.com");
-//	echo "1 record added";
-
 	mysqli_close($con);
 }
 ?>
